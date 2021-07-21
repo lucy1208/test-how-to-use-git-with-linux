@@ -1,2 +1,2 @@
-test: hello.c add.c
-	gcc hello.c add.c -o test
+test: hello.c add.c multi.c
+	gcc hello.c add.c multi.c -o test
